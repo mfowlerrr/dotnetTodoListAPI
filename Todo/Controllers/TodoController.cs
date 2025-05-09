@@ -52,7 +52,7 @@ namespace Todo.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {
-            var todo = await _context.Todos.FindAsync(id);
+            var todo = _context.Todos.Find(id);
             if (todo == null) return BadRequest();
 
             _context.Todos.Remove(todo);

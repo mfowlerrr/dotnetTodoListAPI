@@ -7,7 +7,7 @@ namespace Todo.Models
         public int Id { get; set; }
         [Required]
         public string Msg { get; set; } = string.Empty;
-        public bool IsComplete { get; set; }
+        public bool IsComplete { get; set; } = false;
 
     }
 }
