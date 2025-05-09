@@ -1,0 +1,39 @@
+## .NET build output
+bin/
+obj/
+*.user
+*.suo
+
+## ASP.NET specific
+wwwroot/
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+## Rider / VS Code / VS for Mac
+.idea/
+.vscode/
+.vs/
+
+## Logs
+*.log
+logs/
+
+## User secrets
+secrets.json
+
+## Package management
+packages/
+*.nupkg
+*.snupkg
+
+## OS generated files
+.DS_Store
+Thumbs.db
+
+## Others
+*.db
+*.sqlite
+
+## IDE
+.vscode
